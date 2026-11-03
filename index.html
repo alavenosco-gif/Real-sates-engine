@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17201c">
+  <meta name="description" content="A considered collection of distinctive residences and investment opportunities.">
+  <title>ESTATE — Exceptional Property, Considered</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Set to your separately hosted HTTPS API origin before publishing.
+    // Example: window.ESTATE_CONFIG = { apiBase: "https://api.example.com" };
+    window.ESTATE_CONFIG = { apiBase: "" };
+  </script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#" aria-label="Estate home">ESTATE<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#collection">Collection</a>
+      <a href="#approach">Our approach</a>
+      <a class="nav-cta" href="#inquiry">Private inquiry</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A considered collection · Egypt and beyond</p>
+        <h1>Exceptional property.<br><em>Enduring perspective.</em></h1>
+        <p class="hero-text">
+          Discover distinctive residences and investment opportunities across
+          Egypt, the Gulf and Europe.
+        </p>
+        <a class="button button-light" href="#collection">
+          Explore the collection <span aria-hidden="true">↘</span>
+        </a>
+      </div>
+      <div class="hero-caption">
+        <span>Private residences</span>
+        <span>Curated for the considered investor</span>
+      </div>
+    </section>
+
+    <section class="intro section-wrap" id="approach">
+      <p class="eyebrow">The Estate perspective</p>
+      <div>
+        <h2>More than an address.<br><em>A well-placed decision.</em></h2>
+        <p>
+          Explore a focused selection of residences and investment opportunities.
+          Request details securely and our team will follow up directly.
+        </p>
+      </div>
+    </section>
+
+    <section class="collection section-wrap" id="collection">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">The collection</p>
+          <h2>Selected properties</h2>
+        </div>
+        <p class="section-note">Pricing and availability should be reconfirmed at inquiry.</p>
+      </div>
+      <div id="property-grid" class="property-grid" aria-live="polite">
+        <p class="loading-message">Preparing the collection…</p>
+      </div>
+    </section>
+
+    <section class="inquiry-section" id="inquiry">
+      <div class="inquiry-copy">
+        <p class="eyebrow">A private conversation</p>
+        <h2>Begin with<br><em>the right question.</em></h2>
+        <p>Share your details and the property that interests you. We’ll be in touch.</p>
+        <p class="privacy-note">
+          Your details are submitted to respond to this inquiry and are not displayed publicly.
+        </p>
+      </div>
+
+      <form id="lead-form" class="lead-form">
+        <div class="form-row">
+          <label>
+            Full name
+            <input name="name" autocomplete="name" required minlength="2" maxlength="120">
+          </label>
+          <label>
+            Email address
+            <input name="email" type="email" autocomplete="email" required maxlength="254">
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label>
+            Phone number
+            <input name="phone" type="tel" autocomplete="tel" required maxlength="40">
+          </label>
+          <label>
+            Property of interest
+            <select name="property_code" id="property-select">
+              <option value="">Not sure yet</option>
+            </select>
+          </label>
+        </div>
+
