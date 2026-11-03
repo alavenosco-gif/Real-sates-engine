@@ -1,0 +1,44 @@
+[
+  {
+    "code": "EST-A1B2C3",
+    "title": "The Palm Residence",
+    "location": "New Cairo, Egypt",
+    "price": 850000,
+    "currency": "USD",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area_sqm": 320,
+    "description": "Illustrative example listing. Replace with verified property details before publication.",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
+    "image_alt": "Contemporary residence with landscaped grounds",
+    "demo": true
+  },
+  {
+    "code": "EST-D4E5F6",
+    "title": "Nile Garden Suite",
+    "location": "Zamalek, Cairo",
+    "price": 420000,
+    "currency": "USD",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_sqm": 210,
+    "description": "Illustrative example listing. Replace with verified property details before publication.",
+    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
+    "image_alt": "Modern apartment interior",
+    "demo": true
+  },
+  {
+    "code": "EST-789ABC",
+    "title": "Coastal Horizon Villa",
+    "location": "North Coast, Egypt",
+    "price": 1250000,
+    "currency": "USD",
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "area_sqm": 410,
+    "description": "Illustrative example listing. Replace with verified property details before publication.",
+    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
+    "image_alt": "Villa with swimming pool and outdoor living area",
+    "demo": true
+  }
+]
